@@ -7,7 +7,7 @@ webpack-gulp-react-flux
 * 用`gulp`做前端自动化构建,压缩合并文件
 
 ## 环境配置
-* 确保你的电脑正确安装了 `nodejs` 
+* 包管理器 `npm` 
 
 ## 运行步骤
 * 输入 `npm i` 安装包依赖
