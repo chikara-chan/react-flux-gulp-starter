@@ -1,7 +1,6 @@
 webpack-gulp-react-flux
 =====================================
 * 前端开发框架的整合Demo
-* 用`angularjs`做单页面MVVM框架、路由的控制
 * 用`webpack`做模块打包
 * 用`react`做组件化开发
 * 用`flux`做react体系架构
