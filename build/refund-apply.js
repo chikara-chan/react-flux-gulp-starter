@@ -1,46 +1,4 @@
-/******/ (function(modules) { // webpackBootstrap
-/******/ 	// The module cache
-/******/ 	var installedModules = {};
-
-/******/ 	// The require function
-/******/ 	function __webpack_require__(moduleId) {
-
-/******/ 		// Check if module is in cache
-/******/ 		if(installedModules[moduleId])
-/******/ 			return installedModules[moduleId].exports;
-
-/******/ 		// Create a new module (and put it into the cache)
-/******/ 		var module = installedModules[moduleId] = {
-/******/ 			exports: {},
-/******/ 			id: moduleId,
-/******/ 			loaded: false
-/******/ 		};
-
-/******/ 		// Execute the module function
-/******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
-
-/******/ 		// Flag the module as loaded
-/******/ 		module.loaded = true;
-
-/******/ 		// Return the exports of the module
-/******/ 		return module.exports;
-/******/ 	}
-
-
-/******/ 	// expose the modules object (__webpack_modules__)
-/******/ 	__webpack_require__.m = modules;
-
-/******/ 	// expose the module cache
-/******/ 	__webpack_require__.c = installedModules;
-
-/******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "";
-
-/******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(0);
-/******/ })
-/************************************************************************/
-/******/ ([
+webpackJsonp([0,1],[
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
@@ -21436,9 +21394,9 @@
 	var AppStores = __webpack_require__(176);
 	var AppActions = __webpack_require__(186);
 	var Header = __webpack_require__(187);
-	var MainSection = __webpack_require__(188);
-	var SecondSection = __webpack_require__(189);
-	var Footer = __webpack_require__(190);
+	var MainSection = __webpack_require__(189);
+	var SecondSection = __webpack_require__(190);
+	var Footer = __webpack_require__(191);
 
 	function getNewState() {
 	    return AppStores.getAllData();
@@ -23420,7 +23378,7 @@
 						React.createElement(
 							'div',
 							{ className: 'img-bg' },
-							React.createElement('img', { className: 'img-1', src: 'http://imgsize.52shangou.com/img/n/07/29/1469762831835_2068.png' })
+							React.createElement('img', { className: 'img-1', src: __webpack_require__(188) })
 						)
 					),
 					React.createElement(
@@ -23489,6 +23447,12 @@
 
 /***/ },
 /* 188 */
+/***/ function(module, exports) {
+
+	module.exports = "data:image/png;base64,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"
+
+/***/ },
+/* 189 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var React = __webpack_require__(1);
@@ -23556,7 +23520,7 @@
 	module.exports = childComponent;
 
 /***/ },
-/* 189 */
+/* 190 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var React = __webpack_require__(1);
@@ -23604,7 +23568,7 @@
 	module.exports = childComponent;
 
 /***/ },
-/* 190 */
+/* 191 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var React = __webpack_require__(1);
@@ -23635,4 +23599,4 @@
 	module.exports = childComponent;
 
 /***/ }
-/******/ ]);
+]);

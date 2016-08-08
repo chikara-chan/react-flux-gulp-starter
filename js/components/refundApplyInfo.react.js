@@ -7,7 +7,7 @@ var childComponent = React.createClass({
     	<div className="header">
 	    	<div className="wrap">
 		    	<div className="left">
-		    		<div className="img-bg"><img className="img-1" src="http://imgsize.52shangou.com/img/n/07/29/1469762831835_2068.png" /></div>
+		    		<div className="img-bg"><img className="img-1" src={require('../../css/img/1.png')} /></div>
 		    	</div>
 		    	<div className="right">
 		    		<h1>及时处理</h1>
@@ -34,4 +34,4 @@ var childComponent = React.createClass({
   }
 });
 
-module.exports = childComponent; 
+module.exports = childComponent;
